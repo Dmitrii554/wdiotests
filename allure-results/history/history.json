@@ -1,0 +1,62 @@
+{
+  "4e86612c362769fdc7e4093412591d33" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "26f2fc71c1a43de0",
+      "status" : "broken",
+      "statusDetails" : "Can't call setValue on element with selector \"#normal_login_email\" because element wasn't found",
+      "time" : {
+        "start" : 1619233893629,
+        "stop" : 1619233905635,
+        "duration" : 12006
+      }
+    } ]
+  },
+  "273ae144b803ba557b83e43273b27f19" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "456a2518f190c845",
+      "status" : "broken",
+      "statusDetails" : "_login.default.submitButtonIsDisabled is not a function",
+      "time" : {
+        "start" : 1619233905636,
+        "stop" : 1619233906076,
+        "duration" : 440
+      }
+    } ]
+  },
+  "25bc1f085cb2de9d7ff2eda86a4290de" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "f784d82edbea360a",
+      "status" : "broken",
+      "statusDetails" : "Timeout of 60000ms exceeded. The execution in the test \"Auth \"after each\" hook for \"fails if invalid data provided\"\" took too long. Try to reduce the run time or increase your timeout for test specs (https://webdriver.io/docs/timeouts). (C:\\Users\\Dmitrii\\Project\\example\\test\\specs\\login.spec.js)",
+      "time" : {
+        "start" : 1619233906077,
+        "stop" : 1619233976423,
+        "duration" : 70346
+      }
+    } ]
+  }
+}
